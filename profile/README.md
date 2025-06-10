@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="../assets/enfiy_logo.png" alt="Enfiy Logo" width="80%" />
+  <img src="../assets/enfiy_logo.svg" alt="Enfiy Logo" width="80%" />
 </p>
 
 <p align="center">
