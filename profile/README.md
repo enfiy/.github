@@ -8,6 +8,8 @@
   </strong>
 </p>
 
+## About
+
 Enfiy is an innovative AI agent platform that fuses cutting-edge multi-agent systems with the Model Context Protocol (MCP). 
 With its intuitive yet powerful design, Enfiy supports creative activities for everyone—from individuals to enterprises and researchers.
 
