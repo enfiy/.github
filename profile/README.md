@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="../assets/enfiy_logo.svg" alt="Enfiy Logo" width="80%" />
+  <img src="https://raw.githubusercontent.com/enfiy/.github/main/assets/enfiy_logo.svg" alt="Enfiy Logo" width="80%" />
 </p>
 
 <p align="center">
