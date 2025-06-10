@@ -24,7 +24,7 @@ If you believe you have found a security vulnerability in any Enfiy repository o
 
 Instead, please send an email to:
 
-**security@arterect.com**
+**support@arterect.net**
 
 Please include as much of the following information as possible to help us understand and resolve the issue:
 
@@ -65,4 +65,4 @@ We appreciate security researchers who:
 
 ---
 
-For general security questions or concerns, please contact us at **contact@arterect.com**.
+For general security questions or concerns, please contact us at **support@arterect.net**.

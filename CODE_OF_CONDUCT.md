@@ -31,7 +31,7 @@ The following behaviors are not permitted in any form:
 
 If you witness or experience violations, please contact us at:
 
-**contact@arterect.com**
+**support@arterect.net**
 
 All reports will be handled confidentially and addressed with integrity.
 
