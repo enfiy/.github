@@ -1,0 +1,119 @@
+name: 📚 Documentation
+description: Report an issue with documentation or suggest improvements
+title: "[Docs]: "
+labels: ["documentation", "triage"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping improve Enfiy's documentation! Please fill out this form to help us understand your request.
+
+  - type: dropdown
+    id: doc-type
+    attributes:
+      label: Documentation Type
+      description: What type of documentation issue is this?
+      options:
+        - Missing Documentation
+        - Incorrect Information
+        - Unclear Instructions
+        - Outdated Content
+        - Broken Links
+        - Typo/Grammar
+        - Translation Issue
+        - API Documentation
+        - Tutorial/Guide Request
+        - Code Examples
+        - Other (please specify in description)
+    validations:
+      required: true
+
+  - type: input
+    id: doc-location
+    attributes:
+      label: Documentation Location
+      description: Where is the documentation located? (URL or file path)
+      placeholder: "e.g., https://github.com/enfiy/enfiy-ecosystem/blob/main/README.md or docs/getting-started.md"
+
+  - type: textarea
+    id: issue-description
+    attributes:
+      label: Issue Description
+      description: Describe the documentation issue or improvement needed.
+      placeholder: "Describe what's wrong or what needs to be improved..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: current-content
+    attributes:
+      label: Current Content (if applicable)
+      description: Copy the current documentation text that needs to be changed.
+      placeholder: "Paste the current content here..."
+
+  - type: textarea
+    id: suggested-content
+    attributes:
+      label: Suggested Content (if applicable)
+      description: Provide your suggested improvement or correction.
+      placeholder: "Provide your suggested content or improvement..."
+
+  - type: dropdown
+    id: audience
+    attributes:
+      label: Target Audience
+      description: Who is the primary audience for this documentation?
+      options:
+        - New Users/Beginners
+        - Developers/Contributors
+        - AI Researchers
+        - System Administrators
+        - End Users
+        - All Users
+        - Other (please specify in description)
+
+  - type: checkboxes
+    id: improvement-areas
+    attributes:
+      label: Areas for Improvement
+      description: What aspects of the documentation could be improved? (Select all that apply)
+      options:
+        - label: Clarity and readability
+        - label: Completeness and detail
+        - label: Code examples and tutorials
+        - label: Visual aids (diagrams, screenshots)
+        - label: Organization and structure
+        - label: Search functionality
+        - label: Mobile responsiveness
+        - label: Accessibility
+        - label: Translation/Localization
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      description: How important is this documentation issue?
+      options:
+        - High - Blocking user adoption
+        - Medium - Significant improvement
+        - Low - Minor improvement
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: contribution
+    attributes:
+      label: Contribution
+      description: Are you willing to help improve this documentation?
+      options:
+        - label: I'm willing to submit a pull request with the changes
+        - label: I'm willing to help review documentation changes
+        - label: I need help from maintainers to make these changes
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Add any other context about the documentation issue here.
+      placeholder: "Any additional information or context..."

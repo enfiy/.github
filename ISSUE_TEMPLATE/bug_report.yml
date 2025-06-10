@@ -1,0 +1,104 @@
+name: 🐛 Bug Report
+description: File a bug report to help us improve Enfiy
+title: "[Bug]: "
+labels: ["bug", "triage"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to report a bug! Please fill out this form as completely as possible.
+
+  - type: input
+    id: version
+    attributes:
+      label: Enfiy Version
+      description: What version of Enfiy are you using?
+      placeholder: "e.g., v1.0.0, main branch"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: component
+    attributes:
+      label: Component
+      description: Which component is affected?
+      options:
+        - Multi-Agent System
+        - Model Context Protocol (MCP)
+        - AI Agent Platform
+        - Documentation
+        - Configuration
+        - Other (please specify in description)
+    validations:
+      required: true
+
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Bug Description
+      description: A clear and concise description of what the bug is.
+      placeholder: "Describe the bug..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction-steps
+    attributes:
+      label: Steps to Reproduce
+      description: Steps to reproduce the behavior
+      placeholder: |
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected Behavior
+      description: A clear and concise description of what you expected to happen.
+      placeholder: "What should have happened?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual-behavior
+    attributes:
+      label: Actual Behavior
+      description: A clear and concise description of what actually happened.
+      placeholder: "What actually happened?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment Information
+      description: |
+        Please provide information about your environment:
+      value: |
+        - OS: [e.g. Ubuntu 20.04, macOS 13.0, Windows 11]
+        - Node.js version: [e.g. 18.17.0]
+        - Python version: [e.g. 3.11.0]
+        - Docker version: [e.g. 24.0.0] (if applicable)
+        - Browser: [e.g. Chrome 118.0] (if applicable)
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs and Error Messages
+      description: If applicable, add logs or error messages to help explain your problem.
+      placeholder: "Paste logs here..."
+      render: shell
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Add any other context about the problem here, such as screenshots or related issues.
+      placeholder: "Any additional information..."

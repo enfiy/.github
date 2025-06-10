@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Community Discussions
+    url: https://github.com/enfiy/enfiy-ecosystem/discussions
+    about: Ask questions, share ideas, and connect with the community
+  - name: 🔒 Security Issues
+    url: https://github.com/enfiy/enfiy-ecosystem/security/advisories/new
+    about: Report security vulnerabilities privately
+  - name: 📧 General Support
+    url: mailto:contact@arterect.com
+    about: Contact us for general support and inquiries
+  - name: 🌐 Website
+    url: https://www.arterect.net
+    about: Visit our main website for more information
